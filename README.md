@@ -21,7 +21,8 @@ claude mcp add --transport http cielstay https://mcp.cielstay.com/mcp
 ```
 
 **ChatGPT.** CielStay's ChatGPT app isn't listed yet. Accounts with developer mode can add the server URL as a custom
-connector (Settings → Apps & Connectors → Advanced → Developer mode). Without a connector, ChatGPT can still find
+app: turn on Settings → Apps → Advanced settings → Developer mode, then create an app with the server URL (menu names
+vary by plan and version). Without a connector, ChatGPT can still find
 CielStay homes when you ask it to search the web, for example: "Search the web for homes on cielstay.com near Zion for
 6 people."
 

@@ -1,0 +1,10 @@
+{
+  "name": "cielstay",
+  "version": "1.0.0",
+  "description": "Search the free AI index of direct-booking vacation homes and message hosts, from Gemini CLI.",
+  "mcpServers": {
+    "cielstay": {
+      "httpUrl": "https://mcp.cielstay.com/mcp"
+    }
+  }
+}

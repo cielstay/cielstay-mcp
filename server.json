@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.cielstay/cielstay",
+  "title": "CielStay",
+  "description": "The free AI index for direct booking homes. Any channel, or straight to the host.",
+  "websiteUrl": "https://www.cielstay.com",
+  "version": "1.0.6",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cielstay.com/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://www.cielstay.com/brand/cielstay-icon-dark-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ]
+}

@@ -4,6 +4,8 @@ Copyright (c) 2026 Ciel Group LLC
 
 This license covers the files in this repository only (configuration files, examples and documentation). It does not
 cover the CielStay service, its data, or listing content, which are governed by https://www.cielstay.com/terms.
+It also does not cover the CielStay name, logo and icons (including the images in assets/): they are trademarks of
+Ciel Group LLC, included only so directories can show CielStay, and may be used only to refer to CielStay.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the

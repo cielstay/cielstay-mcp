@@ -55,14 +55,16 @@ Any other MCP client that supports Streamable HTTP can use the same URL.
 |---|---|
 | `search_vacation_rentals` | Searches homes from a description of the trip (place, dates, party, what matters), with photos, size, a price guide and every booking link CielStay holds. |
 | `refine_search` | Adjusts an earlier search from a follow-up such as "closer to the beach" or "bigger". |
-| `get_listing_details` | Full details for one home: description, amenities, house rules, location, booking links, and the host's live total for given dates where their booking site supports it. |
+| `get_listing_details` | Full details for one home: description, amenities, house rules, location, booking links, and the host's live total for given dates where their booking site supports it. With up to 3 ids, the homes side by side. |
+| `save_shortlist` | Makes a shareable page of chosen homes (cielstay.com/s/…) with a link preview. Anyone with the link can see it; it holds no personal details. |
 | `get_property` | Every unit at a multi-unit property (a small hotel, a glamping site, a building) that shares one booking site. |
 | `find_direct_booking` | Looks up a named home, or a link to it on another booking site, and lists every way to book it, including the host's own site. |
 | `contact_host` | Sends the traveller's first message to the host (questions, dates, a monthly stay). Free. |
 | `book_stay` | At a home whose host offers "Book now": holds the dates for 30 minutes until the traveller confirms by email; payment is between the traveller and the host. |
 | `health_check` | Confirms the server and CielStay's API are up. |
 
-`contact_host` and `book_stay` are the two tools that act. Both act only when you ask. The rest only read.
+`contact_host` and `book_stay` are the two tools that act. Both act only when you ask. `save_shortlist` creates a
+public link to the homes you choose. The rest only read.
 
 ## Example prompts
 

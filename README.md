@@ -20,9 +20,9 @@ Once CielStay is listed in Claude's connector directory, you'll also find it the
 claude mcp add --transport http cielstay https://mcp.cielstay.com/mcp
 ```
 
-**ChatGPT.** CielStay's ChatGPT app isn't listed yet. Accounts with developer mode can add the server URL as a custom
-app: turn on Settings → Apps → Advanced settings → Developer mode, then create an app with the server URL (menu names
-vary by plan and version). Without a connector, ChatGPT can still find
+**ChatGPT.** CielStay is in ChatGPT's plugin directory: open
+[CielStay for ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6b030cca49f08191b6adea07e6d6743c) and press Install plugin, or search "CielStay" under
+Plugins in ChatGPT. Without the plugin, ChatGPT can still find
 CielStay homes when you ask it to search the web, for example: "Search the web for homes on cielstay.com near Zion for
 6 people."
 
